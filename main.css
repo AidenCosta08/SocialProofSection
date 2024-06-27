@@ -17,21 +17,19 @@ body{
     display:grid;
     width: 1110px;
     height: 600px; 
-    
     margin:auto;
     margin-top: 120px;
     border-radius: 17.5px;
     grid-template-areas:
-			"header ratings"
+		    "header ratings"
 			"reviews reviews";
-    
     grid-template-rows: 340px 500px;
 }
 
 h1 {
     
     grid-area: header;
-	text-align: left;
+    text-align: left;
     font-weight: 700;
     color: hsl(300, 43%, 22%);
     font-size: 50px;
@@ -136,7 +134,7 @@ section{
 }
 
 .user span {
-	color: hsl(333, 80%, 67%);
+    color: hsl(333, 80%, 67%);
 	font-weight: 400;
 }
 
