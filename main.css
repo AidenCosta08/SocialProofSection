@@ -24,7 +24,8 @@ body{
     grid-template-areas:
 			"header ratings"
 			"reviews reviews";
-   
+    
+    grid-template-rows: auto 500px;
 }
 
 h1 {
@@ -33,14 +34,17 @@ h1 {
     font-weight: 700;
     color: hsl(300, 43%, 22%);
     font-size: 50px;
+    width: 350px;
     
 }
 
 #para{
     margin-top: 200px;
     grid-area: header;
-    color: hsl(300, 16%, 29%);
+    color: hsl(300, 8%, 43%);
     line-height: 20px ;
+    width: 480px;
+    font-size: 20px;
 }
 
 #w{
@@ -65,10 +69,12 @@ h1 {
     margin-bottom:20px;
     background-color: hsl(300, 24%, 96%);
     border-radius: 8px;
-    width:450px;
+    width:380px;
     height: 40px;
     font-weight: bolder;
     color: hsl(300, 43%, 22%);
+    padding-left: 50px;
+    padding-bottom: 15px;
 }
 
 .stars #two{
@@ -79,12 +85,23 @@ h1 {
     margin-left:200px;
 }
 
+section{  
+    grid-area: 20px;
+    grid-area: reviews;
+    display: flex;
+    flex-direction: row;
+}
+
 .review{
 	background-color:rgb(80, 0, 80);
 	color: white;
-	padding: 2em;
-	margin: 1em 0;
-	border-radius: 10px;   
+	padding: 10px;
+	
+	border-radius: 10px;  
+    width: 350px;
+    height: 200px;
+    margin-right:20px;
+    margin-top: 10px;
 }
 
 .user {
@@ -95,6 +112,14 @@ h1 {
 
 .user p {
 	font-weight: 500;
+}
+
+#irene{
+    margin-top: 30px;
+}
+
+#anne{
+    margin-top: 48px;
 }
 
 .user img {
