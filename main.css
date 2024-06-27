@@ -25,10 +25,11 @@ body{
 			"header ratings"
 			"reviews reviews";
     
-    grid-template-rows: auto 500px;
+    grid-template-rows: 340px 500px;
 }
 
 h1 {
+    
     grid-area: header;
 	text-align: left;
     font-weight: 700;
@@ -36,15 +37,17 @@ h1 {
     font-size: 50px;
     width: 350px;
     
+    
 }
 
 #para{
     margin-top: 200px;
     grid-area: header;
-    color: hsl(300, 8%, 43%);
+    color: hsl(303, 10%, 53%);
     line-height: 20px ;
-    width: 480px;
-    font-size: 20px;
+    width: 450px;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 #w{
@@ -55,16 +58,17 @@ h1 {
     grid-area: ratings;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-    margin-top:60px;
-    
-    
+    margin-left: 50px;
+    margin-top:50px;
+}
+
+.i{
+    margin-right: 20px;
 }
 
 .stars section{
-    padding-top:7px;
-    padding-bottom:7px;
+    padding-top:5px;
+    padding-bottom:5px;
     text-align: center;
     margin-bottom:20px;
     background-color: hsl(300, 24%, 96%);
@@ -73,16 +77,16 @@ h1 {
     height: 40px;
     font-weight: bolder;
     color: hsl(300, 43%, 22%);
-    padding-left: 50px;
+    padding-left: 40px;
     padding-bottom: 15px;
 }
 
 .stars #two{
-    margin-left:100px;
+    margin-left:50px;
 }
 
 .stars #three{
-    margin-left:200px;
+    margin-left:100px;
 }
 
 section{  
@@ -93,21 +97,23 @@ section{
 }
 
 .review{
-	background-color:rgb(80, 0, 80);
+	background-color:hsl(300, 43%, 22%);
 	color: white;
 	padding: 10px;
-	
+	padding-left: 35px;
+    padding-top: 35px;
 	border-radius: 10px;  
-    width: 350px;
+    width: 290px;
     height: 200px;
-    margin-right:20px;
+    margin-right:30px;
     margin-top: 10px;
 }
 
 .user {
 	display: flex;
 	align-items: center;
-	margin-bottom: 2em;
+	margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .user p {
@@ -119,7 +125,7 @@ section{
 }
 
 #anne{
-    margin-top: 48px;
+    margin-top: 50px;
 }
 
 .user img {
@@ -129,12 +135,22 @@ section{
 	margin-right: 20px;
 }
 
-span {
-	color: pink;
+.user span {
+	color: hsl(333, 80%, 67%);
 	font-weight: 400;
 }
+
 
 .text {
 	line-height: 1.5;
 }
 
+blockquote{
+    margin-left: 0px;
+    width: 258px;
+    font-size: 15px;
+}
+
+.line-break {
+    line-height: 25px;
+}
